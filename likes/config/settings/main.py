@@ -66,7 +66,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'likes.config.wsgi.application'
 
-#Имитация .env
+# Имитация .env
 DATABASE_URL = os.getenv('DATABASE_URL', 'postgres://postgres:postgres@localhost:5432/postgres')
 
 db_info = urlparse(DATABASE_URL)
