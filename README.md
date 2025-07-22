@@ -43,10 +43,17 @@ Swagger-схема:
 http://localhost:8000/api/swagger/
 
 Реализованные ендпоинты:
+
 GET	/v1/videos/	Список всех видео
+
 GET	/v1/videos/{id}/ Детали видео
+
 POST /v1/videos/{id}/likes/	Поставить лайк
+
 DELETE /v1/videos/{id}/likes/	Удалить лайк
+
 GET	/v1/videos/ids/	ID всех опубликованных видео (только для staff)
+
 GET	/v1/videos/statistics-group-by/	Статистика через GROUP BY
+
 GET	/v1/videos/statistics-subquery/	Статистика через подзапросы
