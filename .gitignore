@@ -1,0 +1,29 @@
+# Конфиденциальные данные
+../.env
+.env.prod
+.env.local
+*.key
+*.pem
+*.crt
+config/jwt-private.key
+config/jwt-public.key
+../nginx/ssl/
+
+# БД и миграции
+*.sqlite3
+/postgres_data/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.python-version
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.idea/
+.vscode/
+
+logs/
